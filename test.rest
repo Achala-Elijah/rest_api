@@ -1,5 +1,5 @@
 ### Register a new user
-POST http://localhost:5000/api/Register
+POST http://localhost:5000/register
 Content-Type: application/json
 
 {
@@ -11,7 +11,7 @@ Content-Type: application/json
 
 
 ### Login
-POST http://localhost:5000/api/login
+POST http://localhost:5000/login
 Content-Type: application/json
 
 {
@@ -21,10 +21,10 @@ Content-Type: application/json
 
 
 ### Profile
-GET http://localhost:5000/api/profile
+GET http://localhost:5000/profile
 Content-Type: application/json
 
 
 ### Logout
-POST http://localhost:5000/api/logout
+POST http://localhost:5000/logout
 Content-Type: application/json
